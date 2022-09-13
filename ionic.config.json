@@ -1,0 +1,7 @@
+{
+  "name": "Tareaskeleton",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
