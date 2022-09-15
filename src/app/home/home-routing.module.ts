@@ -22,8 +22,18 @@ const routes: Routes = [
       {
         path: 'experiencia-laboral',
         component: ExperienciaLaboralComponent
+      },
+      {
+        path: '',
+        redirectTo: '/home/Misdatos',
+        pathMatch: 'full'
       }
     ]
+  },
+  {
+    path: '',
+    redirectTo: '/home/Misdatos',
+    pathMatch: 'full'
   }
 ];
 
