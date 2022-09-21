@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MisdatosComponent } from '../misdatos/misdatos.component';
 import { CertificacionesComponent } from '../certificaciones/certificaciones.component';
@@ -23,18 +23,8 @@ const routes: Routes = [
         path: 'experiencia-laboral',
         component: ExperienciaLaboralComponent
       },
-      {
-        path: '',
-        redirectTo: '/home/Misdatos',
-        pathMatch: 'full'
-      }
     ]
   },
-  {
-    path: '',
-    redirectTo: '/home/Misdatos',
-    pathMatch: 'full'
-  }
 ];
 
 @NgModule({
@@ -42,3 +32,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class HomePageRoutingModule {}
+
